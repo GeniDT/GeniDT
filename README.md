@@ -1,23 +1,32 @@
-🚀 Hi, I'm Eugenia Dede Teye!
-🔍 Aspiring Data Analyst | Data Scientist
-📊 SQL | Python | Power BI | Data Cleaning & Visualization
+👋 **Hi, I'm Eugenia Dede Teye**  
+Data Engineer specializing in scalable cloud-native pipelines and analytics solutions
 
-👀 I’m Interested In...
-Turning raw data into meaningful insights 📊
-Data storytelling & visualization for better decision-making 🎨
-Collaborating on real-world data projects 🌍
-🌱 I’m Currently Learning...
-Advanced SQL for efficient data querying
-Power BI Dashboarding for business intelligence
-Machine Learning Fundamentals to enhance predictive analytics
-💞️ I’m Looking to Collaborate On...
-Data analysis & visualization projects 📊
-Hackathons & Open Source contributions 🤝
-Kaggle Competitions to strengthen my problem-solving skills 🎯
-📫 How to Reach Me...
-📍 Portfolio: datascienceportfol.io/GeniDT
-🔗 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/eugenia-dede-teye/)
-📧 Email: t.eugeniadede@gmail.com
+🔧 **Core Expertise:**  
+AWS Data Services | Apache Spark | Python | SQL | Apache Airflow | Delta Lake
 
-⚡ Fun Fact:
-I transitioned from healthcare (as a dietitian) to data science, and I love how data drives impactful decisions across different fields!
+## 💡 **What I Do**
+I build robust data infrastructure that transforms raw information into actionable business insights. My focus is on creating reliable and scalable pipelines using modern cloud technologies, while ensuring data quality throughout the entire lifecycle.
+
+## 🛠️ **Currently Working With**
+• **Cloud Platforms:** AWS (EMR, Glue, S3, Redshift, Athena, Lambda, Step Functions)  
+• **Big Data Processing:** Apache Spark, distributed computing, stream processing  
+• **Orchestration:** Apache Airflow, AWS MWAA, workflow automation  
+• **Data Architecture:** Delta Lake, lakehouse design, real-time analytics  
+• **DevOps:** CI/CD pipelines, Infrastructure as Code, containerization
+
+## 🎯 **Open to Collaboration**
+• Enterprise data pipeline projects  
+• Open source contributions to data engineering tools  
+• Cloud architecture optimization challenges  
+• Real-time analytics and streaming solutions
+
+## 📈 **Recent Projects**
+My repositories showcase end-to-end data engineering solutions, including EMR big data pipelines, lakehouse architectures, and event-driven streaming systems that process thousands of records with high reliability.
+
+## 📬 **Let's Connect**
+🌐 **Portfolio:** [Your Portfolio URL]  
+💼 **LinkedIn:** [linkedin.com/in/eugenia-dede-teye](https://www.linkedin.com/in/eugenia-dede-teye/)  
+📧 **Email:** t.eugeniadede@gmail.com
+
+---
+*Building the data infrastructure that powers tomorrow's insights*
