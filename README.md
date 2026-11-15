@@ -1,56 +1,54 @@
-## 👋 Hi, I'm Eugenia Dede Teye
+## Hi, I'm Eugenia Dede Teye 👋
 
-**Data & Analytics Engineer** based in Accra, Ghana — working at the intersection of data engineering and BI, where raw ERP data gets turned into dashboards that commercial leaders actually use.
+**Data Engineer** in Accra, Ghana. I build the pipelines and data models that turn messy source data into reporting people can trust.
 
----
-
-### What I'm doing right now
-
-I'm a Data Analytics Engineer at **AmaliTech Ghana**, building production Qlik Sense and Power BI dashboards on Oracle ERP datasets exceeding 1.4M records. My work covers order management, cancellations, quotes, and logistics — used daily by regional go-to-market leaders, customer service teams, and commercial leadership.
-
-A few things I'm proud of from the last year:
-
-- Built a **supply chain in-transit shipments dashboard** tracking pickup breaches, on-time delivery, and average days in transit
-- Cut dashboard load times by **30–40%** through data-layer KPI logic and set analysis tuning
-- Investigated and resolved a **multi-leg delivery propagation bug** in Oracle ERP shipment data that was quietly breaking downstream logistics reporting
+Before data, I spent nearly three years as a clinical dietitian, collecting patient data and documenting care in electronic health records. That taught me how data is created at the source, and it's why I have a particular interest in health data.
 
 ---
 
-### What I work with
+### What I do
 
-**BI & Analytics** — Qlik Sense, Power BI, SQL (Oracle, advanced set analysis, performance tuning), data modeling, KPI design
+I'm an Associate Data Engineer at **AmaliTech**, working on data platforms end to end:
 
-**Data Engineering** — Python (pandas, NumPy), ETL/ELT pipelines, schema validation, deduplication, API integration
+- Layered lakehouse pipelines with **PySpark** and **Spark SQL**
+- Semantic models and measures for **Power BI** reporting
+- Data validation checks and documentation that keep pipelines reliable and easy to hand over
 
-**Cloud & Big Data** — AWS (S3, Glue, Athena, Redshift, EMR, Lambda, Step Functions, Kinesis, DynamoDB), Apache Spark, Delta Lake
+---
 
-**Orchestration & DevOps** — Apache Airflow, Docker, Git, GitHub Actions, CI/CD
+### Tech stack
+
+**Data engineering:** Python, PySpark, Spark SQL, SQL/T-SQL, ETL/ELT, data quality<br>
+**Lakehouse & modeling:** Microsoft Fabric, Delta Lake, medallion architecture, dimensional modeling<br>
+**BI:** Power BI (DAX, Power Query), Qlik Sense<br>
+**Cloud:** AWS (S3, Glue, Athena, Redshift, EMR, Lambda, Step Functions, Kinesis, DynamoDB)<br>
+**Orchestration & DevOps:** Apache Airflow, Docker, Git, GitHub Actions
 
 ---
 
 ### Featured projects
 
-**🔹 Real-Time Trip Analytics Pipeline** — [repo]([https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing](https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing))
-Event-driven analytics pipeline for a ride-hailing platform, processing 5,000+ trip events through AWS Kinesis with automated KPI aggregation. Implemented schema validation and hash-based deduplication for 99%+ data accuracy.
-
-**🔹 EMR Big Data Processing Pipeline** — [repo]([https://github.com/GeniDT/emr-big-data-pipeline](https://github.com/GeniDT/emr-big-data-pipeline))
-Scalable Spark pipeline on AWS EMR for car rental data, reducing processing time by 70% through distributed computing and tuned resource allocation. Orchestrated with AWS Step Functions for cost-efficient cluster lifecycle management.
+| Project | What it does | Stack |
+|---|---|---|
+| [E-Commerce Lakehouse](https://github.com/GeniDT/lakehouse-ecommerce-etl-pipeline) | Serverless lakehouse: validates and transforms transaction data into Delta Lake tables, queried in Athena | Glue (Spark), Delta Lake, Step Functions, Athena |
+| [Real-Time Trip Analytics](https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing) | Streams ~5,000 trip events, deduplicates them and computes daily KPIs; CI/CD with GitHub Actions | Kinesis, Lambda, DynamoDB, EventBridge |
+| [Car Rental Pipeline on EMR](https://github.com/GeniDT/emr-big-data-pipeline) | Batch PySpark jobs producing vehicle, location and customer KPIs | EMR, PySpark, Glue Catalog, Athena, Step Functions |
+| [Music Streaming KPI Pipeline](https://github.com/GeniDT/airflow-glue-streaming-pipeline) | Daily Airflow-orchestrated pipeline that validates stream data and computes KPIs | Airflow, Glue (Spark), S3, DynamoDB |
+| [Sales Performance Dashboard](https://github.com/GeniDT/GreenLeaf-Performance-Dashboard) | YTD vs prior-year sales, product performance and gross profit | Power BI, DAX, Power Query |
+| [Healthcare Data Cleaning](https://github.com/GeniDT/healthcare-data-cleaning) | Cleans messy patient visit, medication and lab data for analysis | Python, pandas |
 
 ---
 
 ### Certifications
 
-- AWS Certified Data Engineer – Associate
-- AWS Certified Cloud Practitioner
+- AWS Certified Data Engineer, Associate
 - IBM Python for Data Science, AI & Development
-- ALX Africa Data Science
+- ALX Data Science Professional Certificate
 
 ---
 
-### What's next
+### Open to
 
-I'm actively exploring **Analytics Engineer, BI Developer, and Data Engineer roles** — open to any guidance.
+Data engineering, analytics engineering, BI and health data roles: remote, in Ghana, or in Europe.
 
-If you're building a data team that cares about turning messy operational data into things humans can actually use, I'd love to talk.
-
-📫 **Reach me:** [LinkedIn](https://www.linkedin.com/in/eugenia-dede-teye/) · t.eugeniadede@gmail.com
+📫 [LinkedIn](https://www.linkedin.com/in/eugenia-dede-teye/) · t.eugeniadede@gmail.com
