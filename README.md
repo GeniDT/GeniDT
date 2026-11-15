@@ -31,7 +31,7 @@ I'm an Associate Data Engineer at **AmaliTech**, working on data platforms end t
 | Project | What it does | Stack |
 |---|---|---|
 | [E-Commerce Lakehouse](https://github.com/GeniDT/lakehouse-ecommerce-etl-pipeline) | Serverless lakehouse: validates and transforms transaction data into Delta Lake tables, queried in Athena | Glue (Spark), Delta Lake, Step Functions, Athena |
-| [Real-Time Trip Analytics](https://github.com/GeniDT/nsp-bolt_ride_real-time_trip_processing) | Streams ~5,000 trip events, deduplicates them and computes daily KPIs; CI/CD with GitHub Actions | Kinesis, Lambda, DynamoDB, EventBridge |
+| [Real-Time Trip Analytics](https://github.com/GeniDT/real-time-trip-analytics-pipeline) | Streams ~5,000 trip events, deduplicates them and computes daily KPIs; CI/CD with GitHub Actions | Kinesis, Lambda, DynamoDB, EventBridge |
 | [Car Rental Pipeline on EMR](https://github.com/GeniDT/emr-big-data-pipeline) | Batch PySpark jobs producing vehicle, location and customer KPIs | EMR, PySpark, Glue Catalog, Athena, Step Functions |
 | [Music Streaming KPI Pipeline](https://github.com/GeniDT/airflow-glue-streaming-pipeline) | Daily Airflow-orchestrated pipeline that validates stream data and computes KPIs | Airflow, Glue (Spark), S3, DynamoDB |
 | [Sales Performance Dashboard](https://github.com/GeniDT/GreenLeaf-Performance-Dashboard) | YTD vs prior-year sales, product performance and gross profit | Power BI, DAX, Power Query |
